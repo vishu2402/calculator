@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <div class="centered-div">
+        <div class="first">
+            <div class="rectangle">
+                <input type="text" id="display" disabled>
+            </div>
+            
+            <div class="square">
+                <button id="clear" class="calculator-button" onclick="clearDisplay()">AC</button>
+            </div>
+        </div>
+        <div class="second">
+            <div class="square2">
+                <div class="button-row">
+                    <button class="calculator-button" onclick="appendToDisplay('9')">9</button>
+                    <button class="calculator-button" onclick="appendToDisplay('8')">8</button>
+                    <button class="calculator-button" onclick="appendToDisplay('7')">7</button>
+                </div>
+                <div class="button-row">
+                    <button class="calculator-button" onclick="appendToDisplay('4')">4</button>
+                    <button class="calculator-button" onclick="appendToDisplay('5')">5</button>
+                    <button class="calculator-button" onclick="appendToDisplay('6')">6</button>
+                </div>
+                <div class="button-row">
+                    <button class="calculator-button" onclick="appendToDisplay('1')">1</button>
+                    <button class="calculator-button" onclick="appendToDisplay('2')">2</button>
+                    <button class="calculator-button" onclick="appendToDisplay('3')">3</button>
+                </div>
+                <div class="button-row">
+                    <button class="calculator-button" onclick="appendToDisplay('.')">.</button>
+                    <button class="calculator-button" onclick="appendToDisplay('0')">0</button>
+                    <button class="calculator-button" onclick="calculate()">=</button>
+                </div>
+            </div>
+            <div class="inver-rect">
+                <button class="calculator-button" onclick="appendToDisplay('+')">+</button>
+                <button class="calculator-button" onclick="appendToDisplay('-')">-</button>
+                <button class="calculator-button" onclick="appendToDisplay('/')">/</button>
+                <button class="calculator-button" onclick="appendToDisplay('*')">*</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

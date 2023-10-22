@@ -1,0 +1,139 @@
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.centered-div {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+}
+
+.rectangle{
+    width: 300px;
+    height: 70px;
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+}
+
+.rectangle input{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.square{
+    width: 100px;
+    height: 70px;
+    background-color: #3f8610b5;
+    position: relative;
+    bottom: 20px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+}
+
+/* ... Previous CSS styles ... */
+
+/* ... Previous CSS styles ... */
+
+.square2 {
+    width: 300px;
+    height: 270px;
+    background-color: black;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-row {
+    width: 100%;
+    height: 24%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.calculator-button {
+    width: 100%; /* Set the width to take up the entire container */
+    height: 100%; /* Set the height to take up the entire container */
+    background-color: black; /* Set the background color for the button */
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#clear{
+    background-color: rgba(17, 117, 39, 0.855);
+}
+
+
+/* ... Rest of the CSS ... */
+
+
+/* ... Rest of the CSS ... */
+
+
+/* ... Previous CSS styles ... */
+
+/* ... Previous CSS styles ... */
+
+/* ... Previous CSS styles ... */
+
+.inver-rect {
+    width: 100px;
+    height: 270px;
+    background-color: gray;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0; /* Added padding for inner content spacing */
+}
+
+.inver-rect button {
+    width: 100%; /* Set the width to take up the entire container */
+    height: 50px; /* Fixed height for symbol buttons */
+    background-color: #888; /* Set the background color for the symbol buttons */
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    box-sizing: border-box; /* Include padding and border in the height calculation */
+    background: none;
+}
+
+/* ... Rest of the CSS ... */
+
+
+.inver-rect button:last-child {
+    margin-bottom: 0; /* Remove margin for the last symbol button */
+}
+
+/* ... Rest of the CSS ... */
+
+
+/* ... Rest of the CSS ... */
